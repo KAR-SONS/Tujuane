@@ -18,9 +18,9 @@ const Discover = () => {
                 Chats
               </button>
             </Link>
-            <Link to="#">
+            <Link to="/profile">
               <button className="h-9 px-4">
-                <UserCircle2 className='w-9 h-9 text-pink-700'/>
+                <UserCircle2 className='w-9 h-9 text-pink-600'/>
               </button>
             </Link>
           </div>

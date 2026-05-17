@@ -41,7 +41,7 @@ const Home = () => {
                 Discover fascinating profiles and start meaningful conversations. Tujuane is where connections come alive.
               </p>
             </div>
-            <Link to="#">
+            <Link to="/discover">
               <button size="lg" className="bg-pink-600 hover:bg-pink-600 text-white text-lg h-14 px-8 rounded-full">
                 Start Chatting Now
               </button>
@@ -97,7 +97,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold text-black mb-3">Pricing</h3>
               <p className="text-gray-600">
-                We give you free access to view profiles for 3 hours from signup then we ask you to verify your account for a <span className="font-bold">ONE TIME</span> payment of Kes/99 to chat with other users
+                We give you free access to view profiles for 3 hours from signup then we ask you to verify your account for a <span className="font-bold">ONE TIME</span> payment of <span className="font-semibold text-green-600">Kes 99</span> to chat with other users
               </p>
             </div>
 
@@ -122,7 +122,7 @@ const Home = () => {
           <p className="text-xl mb-8 opacity-90">
             Join thousands of people already connecting on Tujuane
           </p>
-          <Link to="#">
+          <Link to="/login">
             <button size="lg" className="bg-white hover:bg-gray-100 text-pink-600 font-bold text-lg h-14 px-8 rounded-full">
               Get Started for Free
             </button>
