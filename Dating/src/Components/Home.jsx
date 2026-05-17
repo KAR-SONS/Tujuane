@@ -12,12 +12,12 @@ const Home = () => {
             Tujuane
           </div>
           <div className="flex gap-4">
-            <Link to="#">
+            <Link to="/login">
               <button variant="outline" className="h-9 px-4 py-2 shadow-xs rounded-md border border-pink-500 text-black font-semibold hover:bg-pink-50">
                 Login
               </button>
             </Link>
-            <Link to="#">
+            <Link to="/signup">
               <button className="h-9 px-4 py-2 shadow-xs rounded-md bg-pink-700 hover:bg-pink-600 text-white font-semibold">
                 Get Started
               </button>

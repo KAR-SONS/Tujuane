@@ -2,6 +2,21 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Login = () => {
+  const handleLogin = async (e) => {
+  e.preventDefault();
+
+  try {
+    await account.createEmailPasswordSession(
+      email,
+      password
+    );
+
+    alert("Logged in");
+
+  } catch (error) {
+    console.log(error);
+  }
+};
   return (
      <div className="flex min-h-screen w-full items-center justify-center p-6 md:p-10 bg-white">
       <div className="w-full max-w-sm">

@@ -17,39 +17,39 @@ const Signup = () => {
             <form >
               <div className="flex flex-col gap-5">
                 <div className="grid gap-2">
-                  <label className="text-md font-semibold text-black">First Name</label>
+                  <label className="text-sm font-semibold text-black">First Name</label>
                   <input
                     type="text"
                     placeholder="John"
                     required
-                    className="px-3 py-1 border border-pink-300 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
+                    className="px-3 py-1 border border-pink-200 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
                   />
                 </div>
                 <div className="grid gap-2">
-                  <label className="text-md font-semibold text-black">Email</label>
+                  <label className="text-sm font-semibold text-black">Email</label>
                   <input
                     type="email"
                     placeholder="you@example.com"
                     required
-                    className="px-3 py-1 border border-pink-300 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
+                    className="px-3 py-1 border border-pink-200 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
                   />
                 </div>
                 <div className="grid gap-2">
-                  <label className="text-md font-semibold text-black">Password</label>
+                  <label className="text-sm font-semibold text-black">Password</label>
                   <input
                     type="password"
                     placeholder="••••••••"
                     required
-                    className="px-3 py-1  border border-pink-300 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
+                    className="px-3 py-1 border border-pink-200 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
                   />
                 </div>
                 <div className="grid gap-2">
-                  <label className="text-md font-semibold text-black">Confirm Password</label>
+                  <label className="text-sm font-semibold text-black">Confirm Password</label>
                   <input
                     type="password"
                     placeholder="••••••••"
                     required
-                    className="px-3 py-1 border border-pink-300 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
+                    className="px-3 py-1 border border-pink-200 focus:ring-pink-500 focus:border-pink-500 rounded-lg h-10 text-black"
                   />
                 </div>
                 <button
